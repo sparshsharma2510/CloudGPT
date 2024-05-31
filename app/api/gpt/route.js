@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
-const testStr = "sk-proj-vDftPdz7JQ8Zx8KfXI63T3BlbkFJIgrLHuOUisO9ESoSACfe"
 const openai = new OpenAI({});
 
 export async function POST(request) {
